@@ -1,9 +1,9 @@
 // Mixins in here
-.button-styles{
-    width:80%;
-    background-color: @button-bg;
-    color:white;
-    height:38px;
-    border-radius: 20%;
-    border: none;
+.button-styles(@background-color, @color, @height, @border-radius, @border){
+    background-color: @background-color;
+    color:@color;
+    height:@height;
+    border-radius:@border-radius;
+    border: @border;
+
 }
