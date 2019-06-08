@@ -1,1 +1,40 @@
 // Navigation Styles here
+.nav{
+    display:flex;
+    width:800px;
+    margin: 0px 360px;
+    height:85px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding: 15px 100px 0px 70px;
+    border-bottom: 2px dashed lightgrey;
+    @media(max-width:500px){
+        display:flex;
+        flex-direction:column;
+        height:120px;
+        width:100%;
+        justify-content:space-around;
+    }
+    h1{
+        font-size:3.6rem;
+        font-weight:600;
+    }
+    nav{
+        display: flex;
+        width:240px;
+        height:auto;
+        font-size: 1.2rem;
+        justify-content: space-between;
+        font-weight:600;
+        @media(max-width:500px){
+            display:flex;
+            flex-direction:row;
+            height:auto;
+            width:100%;
+            justify-content:space-between;
+            font-size: 1.8rem;
+            font-weight:500;
+        }
+    }
+}
